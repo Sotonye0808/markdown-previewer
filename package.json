@@ -1,6 +1,6 @@
 {
   "homepage": "https://Sotonye0808.github.io/markdownPreviewer",
-  "name": "markdown-previewer",
+  "name": "markdownPreviewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
