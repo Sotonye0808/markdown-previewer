@@ -36,7 +36,7 @@ const MarkdownPreviewer = () => {
       .replace(/\n{2,}/g, '<br/>') // Convert line breaks
       .replace(/(?:\r\n|\r|\n)/g, '<br/>') // Convert line breaks (alternative)
       .replace(/^\-\-\-$/gm, '<hr/>') // Convert horizontal rule
-      .replace(/\^\[youtube:(.*?)\]/g, '<iframe width="560" height="315" src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'); // Convert YouTube video
+      .replace(/\^\[youtube:(.*?)\]/g, '<iframe width="56" height="31" src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'); // Convert YouTube video
   };
   
   return (
