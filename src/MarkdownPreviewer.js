@@ -84,6 +84,14 @@ function add(a, b) {
 
 ![Image](https://via.placeholder.com/150)
 **Bold Text**
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Cell 1   | Cell 2   |
+
+---
+
+^[youtube:VIDEO_ID]
 `;
 
 export default MarkdownPreviewer;
